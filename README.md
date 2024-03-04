@@ -19,7 +19,7 @@ Pentru testarea aplicatiei, am creat fisierele:
 * cursuri.in – contine numele a 7 cursuri, in format: nume_curs, numele
 profesorului_titular_fiecarui_curs, numarul_de_credite
 
-## Testarea aplicatiei fara interfata grafica(cerinta 1.10) 
+### Testarea aplicatiei fara interfata grafica(cerinta 1.10) 
 -> am realizat-o prin formarea a 4
 grupe de studenti, cate 25 in fiecare grupa, formarea a 7 cursuri (6 de tip FullCourse si 1 de tip
 PartialCourse), adaugarea asistentilor, setarea numelor parintilor fiecarui student.
