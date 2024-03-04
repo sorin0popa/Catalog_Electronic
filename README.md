@@ -19,7 +19,8 @@ Pentru testarea aplicatiei, am creat fisierele:
 * cursuri.in – contine numele a 7 cursuri, in format: nume_curs, numele
 profesorului_titular_fiecarui_curs, numarul_de_credite
 
-Testarea aplicatiei fara interfata grafica(cerinta 1.10) am realizat-o prin formarea a 4
+## Testarea aplicatiei fara interfata grafica(cerinta 1.10) 
+-> am realizat-o prin formarea a 4
 grupe de studenti, cate 25 in fiecare grupa, formarea a 7 cursuri (6 de tip FullCourse si 1 de tip
 PartialCourse), adaugarea asistentilor, setarea numelor parintilor fiecarui student.
 In clasa ScoreVisitor profesorii si asistentii trec notele fiecarui student conform
@@ -27,7 +28,9 @@ fisierului studenti.in, iar notificarile transmise parintilor pot fi observate i
 notifications.out, in care sunt 1400 de notificari: 100 parinti, pentru a simplifica putin, am redus
 numarul parintilor care primsec notificari * 7 cursuri * de doua ori(o data pentru asistent, o data
 pentru profesor).
-Testarea aplicatiei cu interfata grafica se face creand conturi pentru fiecare tip de
+### Testarea aplicatiei cu interfata grafica 
+
+-> se face creand conturi pentru fiecare tip de
 User(Student, Teacher, Parent, Assistant) pe pagina ce rezulta apasand butonul SIGN UP, conditia
 fiind ca un user de acelasi tip si acelasi nume sa nu fi fost creat deja. Studentii creati cu interfata
 grafica sunt adaugati intr-o grupa separata fata de cei adaugati fara interfata grafica, pentru a se
